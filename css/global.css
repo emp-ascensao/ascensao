@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&display=swap');
+
+/* Geral */
+* {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.title {
+    font-size: 70px;
+    padding: 20%;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Header */
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navigation {
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+  }
+
+.navigation li {
+    float: right;
+    padding: 2%;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation #selectable:hover {
+    background-color: #840016;
+}
+
+.navigation #selectable:hover .fa-brands.fa-instagram.fa-2xl {
+    color: white !important;
+}
+
+header {
+    background-image: url('../assets/background.jpeg');
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer {
+    padding: 2%;
+    text-align: center;
+    background-image: url('../assets/background.jpeg');
+    background-position-y: bottom;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.8);
+}
